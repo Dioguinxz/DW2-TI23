@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+html {
+    font-family: 'Gabarito', cursive;
+
+}
+
+img {
+    clip-path: circle(40%);
+    cursor: pointer;
+
+
+}
+
+#medicos {
+    margin: 0 auto;
+    width: 400px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    transition: ease-in-out 0.3s;
+}
+
+p:hover {
+    color: rgb(158, 18, 18);
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    transition: ease-in-out 0.3s;
+
+}
+
+h1:hover {
+    font-size: 31px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(158, 18, 18);
+
+
+}

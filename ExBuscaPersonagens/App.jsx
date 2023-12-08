@@ -29,9 +29,9 @@ const Personagens = ({ props }) => {
     </div>
   )
 }
-function App() {
-  
 
+
+function App() {
   return (
     <>
        <div>
